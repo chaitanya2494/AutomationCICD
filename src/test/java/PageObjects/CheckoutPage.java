@@ -47,8 +47,10 @@ WebDriver driver;
 	
 	public ConfirmationPage submitOrder()
 	{
+
 		placeOrder.click();
 		ConfirmationPage finalPage = new ConfirmationPage(driver);
 		return finalPage;
+
 	}
 }
