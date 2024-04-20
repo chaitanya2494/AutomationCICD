@@ -32,6 +32,7 @@ public class LandingPage extends AbstractComponent {
 	
 	@FindBy (css="div[aria-label='Incorrect email or password.']")
 	WebElement errorMsg;
+
 	
 	public ProductCatalogue pageLoginDetail(String email, String password)
 	{
