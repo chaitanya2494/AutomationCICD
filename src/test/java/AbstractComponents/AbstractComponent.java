@@ -66,6 +66,7 @@ public class AbstractComponent {
 	}
 	
 	public void elementToBeClickable(By elementNeeded)
+	
 	{
 	WebDriverWait w = new WebDriverWait(driver, Duration.ofSeconds(5));
 	w.until(ExpectedConditions.elementToBeClickable(elementNeeded));
