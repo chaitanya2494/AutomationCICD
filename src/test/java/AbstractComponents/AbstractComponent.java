@@ -53,6 +53,7 @@ public class AbstractComponent {
 	
 	public void getWaitTimeDisappear(WebElement elementOnThePage)
 	{
+
 	WebDriverWait w = new WebDriverWait(driver, Duration.ofSeconds(5));
 	w.until(ExpectedConditions.invisibilityOf(elementOnThePage));
 
